@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IEEE YESIST12 2026 – Preliminary Round | ITM University</title>
+    <meta name="description"
+        content="Official Preliminary Round of IEEE YESIST12 2026 hosted at ITM University Gwalior. Open to participants worldwide.">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* --- How to Apply Section --- */
+        .apply-steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .apply-step-card {
+            background: var(--white);
+            padding: 2rem;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+            box-shadow: var(--card-shadow);
+            text-align: center;
+            position: relative;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .apply-step-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--hover-shadow);
+            border-color: var(--accent-blue);
+        }
+
+        .step-badge {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: var(--light-blue);
+            color: var(--primary-blue);
+            padding: 0.25rem 0.75rem;
+            border-radius: 50px;
+            font-size: 0.75rem;
+            font-weight: 700;
+        }
+
+        .step-icon {
+            width: 60px;
+            height: 60px;
+            background: var(--primary-blue);
+            color: var(--white);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .apply-step-card p {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            margin-bottom: 1.5rem;
+            flex-grow: 1;
+        }
+
+        .after-submission-box {
+            background: var(--white);
+            padding: 1.5rem 2rem;
+            border-radius: 12px;
+            border-left: 5px solid var(--accent-blue);
+            box-shadow: var(--card-shadow);
+            display: flex;
+            gap: 1.5rem;
+            align-items: flex-start;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .after-submission-box i {
+            font-size: 1.5rem;
+            color: var(--accent-blue);
+            margin-top: 0.25rem;
+        }
+
+        .after-submission-box h4 {
+            margin-bottom: 0.5rem;
+        }
+
+        .after-submission-box p {
+            margin-bottom: 0;
+            font-size: 0.95rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- STICKY HEADER -->
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="#home" class="logo-group">
+                <span class="logo-main">IEEE YESIST12</span>
+                <span class="logo-sub">ITM UNIVERSITY GWALIOR</span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <nav class="main-nav" id="mainNav">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#tracks" class="nav-link">Tracks</a>
+                <a href="#structure" class="nav-link">Structure</a>
+                <a href="#apply" class="nav-link">Apply</a>
+                <a href="#timeline" class="nav-link">Timeline</a>
+                <a href="#rules" class="nav-link">Rules</a>
+                <a href="#awards" class="nav-link">Awards</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="https://portal.ieeeyesist12.org/link/itmug" target="_blank"
+                    class="btn btn-primary nav-btn">Register Now</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 1️⃣ HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>IEEE YESIST12 2026 – Preliminary Round</h1>
+                <p class="subtitle">Hosted at ITM University, Gwalior</p>
+                <p class="hero-org">Organized by Centre of Excellence (AI), ITM University | Partner: Ideapad IIC</p>
+                <div class="global-badge">
+                    <i class="fas fa-globe-americas"></i> Open to Participants Worldwide
+                </div>
+                <div>
+                    <a href="#registration" class="btn btn-primary btn-lg">Register Now</a>
+                    <a href="#structure" class="btn btn-outline btn-lg" style="margin-left: 1rem;">View Structure</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- 2️⃣ ABOUT THE EVENT -->
+    <section id="about">
+        <div class="container">
+            <h2>About the Event</h2>
+            <div class="content-wrapper text-center">
+                <p><strong>ITM University, Gwalior</strong> is proud to serve as a <strong>Pilot Institute</strong>
+                    under the prestigious <strong>IEEE YESIST12 2026</strong> program. This preliminary round is
+                    organized by the <strong>Centre of Excellence (AI), ITM University</strong> in partnership with
+                    <strong>Ideapad IIC</strong>.
+                </p>
+                <p>This structured selection process is designed to identify the most innovative projects from across
+                    the globe, providing a platform for students and young professionals to present their solutions to
+                    the world’s most pressing challenges.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3️⃣ ABOUT IEEE YESIST12 -->
+    <section id="about-ieee" class="bg-light">
+        <div class="container">
+            <h2>About IEEE YESIST12</h2>
+            <div class="content-wrapper">
+                <div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: center;">
+                    <div style="flex: 1; min-width: 300px;">
+                        <p>IEEE YESIST12 (Youth Endeavour for Social Innovation using Sustainable Technology) is a
+                            global innovation initiative for students and young professionals. It empowers the next
+                            generation to build technology-driven solutions for social impact.</p>
+                        <p>Everything we do is strictly aligned with the **United Nations Sustainable Development Goals
+                            (SDGs)**. Top-performing teams from this preliminary round will have the chance to progress
+                            toward the **International Grand Finale in Indonesia**.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4️⃣ TRACKS SECTION -->
+    <section id="tracks">
+        <div class="container">
+            <h2>Hackathon Tracks</h2>
+            <div class="tracks-grid">
+                <!-- Track 1 -->
+                <div class="track-card">
+                    <i class="fas fa-lightbulb track-icon text-accent"></i>
+                    <h3>Innovation Challenge</h3>
+                    <p>Develop technical solutions for sustainable land ecosystems. This track focuses on using AI, GIS,
+                        and Remote Sensing to protect and restore Life on Land (SDG 15). Ideal for those with strong
+                        technical and analytical skills.</p>
+                </div>
+                <!-- Track 2 -->
+                <div class="track-card">
+                    <i class="fas fa-tools track-icon text-accent"></i>
+                    <h3>Maker Fair</h3>
+                    <p>A track dedicated to hardware and software prototypes that solve local community problems.
+                        Whether it's a smart irrigation system or a community health app, this track is for the makers
+                        and builders focused on direct social impact.</p>
+                </div>
+                <!-- Track 3 -->
+                <div class="track-card">
+                    <i class="fas fa-microchip track-icon text-accent"></i>
+                    <h3>Special Track</h3>
+                    <p>Explore the potential of emerging technologies like Blockchain, IoT, and AR/VR. This track
+                        challenges participants to implement high-end tech solutions for industry-specific problems and
+                        governance models.</p>
+                </div>
+                <!-- Track 4 -->
+                <div class="track-card">
+                    <i class="fas fa-female track-icon text-accent"></i>
+                    <h3>WePOWER Track</h3>
+                    <p>Dedicated to inclusive and sustainable energy solutions. To promote gender diversity in STEM,
+                        this track **requires at least one female member** in every team. Focused on narrowing the
+                        gender gap in technology.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5️⃣ EVENT STRUCTURE – 3 ROUND MODEL -->
+    <section id="structure" class="bg-light">
+        <div class="container">
+            <h2>Event Structure: 3-Round Model</h2>
+            <div class="rounds-container">
+                <!-- Round 1 -->
+                <div class="round-card">
+                    <div class="round-number">1</div>
+                    <h3>Online Idea Submission</h3>
+                    <ul class="round-list">
+                        <li>Register using the official registration link provided on this website.</li>
+                        <li>Download the <a href="hackathonftemplate.pptx" download
+                                style="color: var(--accent-blue); text-decoration: underline;">official abstract
+                                template</a>.</li>
+                        <li>Submit your completed project abstract and idea details directly via the IEEE submission
+                            portal.</li>
+                        <li><strong>Submission Deadline:</strong> <span
+                                style="color: var(--accent-blue); font-weight: 800;">15 March 2026</span></li>
+                        <li>All ideas will be evaluated by technical experts for shortlisting.</li>
+                    </ul>
+                </div>
+                <!-- Round 2 -->
+                <div class="round-card">
+                    <div class="round-number">2</div>
+                    <h3>Preliminary Round (Hybrid)</h3>
+                    <ul class="round-list">
+                        <li>Shortlisted teams present their work online or offline.</li>
+                        <li><strong>Fee:</strong> ₹500 per team (up to 4 members).</li>
+                        <li>Includes welcome kit, refreshments, and campus Wi-Fi.</li>
+                        <li>Certificate of Achievement for selected winners.</li>
+                    </ul>
+                </div>
+                <!-- Round 3 -->
+                <div class="round-card">
+                    <div class="round-number">3</div>
+                    <h3>International Grand Finale</h3>
+                    <ul class="round-list">
+                        <li>The highest-ranking teams progress to the next stage.</li>
+                        <li>The 2026 Grand Finale will be hosted in **Indonesia**.</li>
+                        <li>Opportunities for international networking and funding.</li>
+                        <li>Mentorship support for qualifying teams.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6️⃣ HOW TO APPLY (INSTRUCTIONAL) -->
+    <section id="apply">
+        <div class="container">
+            <h2>How to Apply</h2>
+            <div class="apply-steps">
+                <!-- Step 1 -->
+                <div class="apply-step-card">
+                    <div class="step-badge">Phase 1</div>
+                    <div class="step-icon"><i class="fas fa-user-edit"></i></div>
+                    <h3>Step 1: Registration</h3>
+                    <p>Begin your journey by registering your team using our official IEEE portal link. This is
+                        mandatory for
+                        all participants to be considered for the preliminary round.</p>
+                    <a href="https://portal.ieeeyesist12.org/link/itmug" target="_blank"
+                        class="btn btn-primary btn-sm">Start Registration</a>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="apply-step-card">
+                    <div class="step-badge">Phase 2</div>
+                    <div class="step-icon"><i class="fas fa-file-download"></i></div>
+                    <h3>Step 2: Download Template</h3>
+                    <p>Prepare your abstract strictly according to the official IEEE YESIST12 2026 format. Using the
+                        correct template is essential for evaluation.</p>
+                    <a href="hackathontemplate.pptx" download class="btn btn-outline btn-sm"><i
+                            class="fas fa-download"></i> Download Template</a>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="apply-step-card">
+                    <div class="step-badge">Phase 3</div>
+                    <div class="step-icon"><i class="fas fa-paper-plane"></i></div>
+                    <h3>Step 3: Submit Idea</h3>
+                    <p>After registering, upload your completed abstract and project details directly on the same
+                        official IEEE portal. No separate platform is required.</p>
+                </div>
+            </div>
+
+            <div class="after-submission-box">
+                <i class="fas fa-info-circle"></i>
+                <div>
+                    <h4>After Submission</h4>
+                    <p>Your idea will be reviewed by our technical expert panel. **Shortlisted teams will be contacted
+                        directly via email or phone** with further instructions for the Hybrid Preliminary Round. Please
+                        ensure your contact details are accurate.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6️⃣ TIMELINE SECTION -->
+    <section id="timeline">
+        <div class="container">
+            <h2>Event Timeline</h2>
+            <div class="timeline-list">
+                <div class="timeline-item">
+                    <span class="timeline-label">Registration Opens</span>
+                    <span class="timeline-date">Live Now</span>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-label">Submission Deadline</span>
+                    <span class="timeline-date">15 March 2026</span>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-label">Round 1 Results</span>
+                    <span class="timeline-date">Via Email</span>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-label">Preliminary Round Date</span>
+                    <span class="timeline-date">TBA</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- 8️⃣ RULES & GUIDELINES SECTION -->
+    <section id="rules">
+        <div class="container">
+            <h2>Rules & Guidelines</h2>
+            <div class="rules-grid">
+                <!-- General Rules -->
+                <div class="rule-category">
+                    <h4>General Rules</h4>
+                    <ul class="rule-list">
+                        <li>Global participation is allowed and encouraged.</li>
+                        <li>Team size must be between 1 and 4 members.</li>
+                        <li>One participant can only be part of one team.</li>
+                        <li>All work must be original and unpublished.</li>
+                    </ul>
+                </div>
+                <!-- Submission Rules -->
+                <div class="rule-category">
+                    <h4>Submission Rules</h4>
+                    <ul class="rule-list">
+                        <li>Registration must be completed using the official registration link provided on this
+                            website.</li>
+                        <li>Submission must be done strictly through the official IEEE event portal.</li>
+                        <li>Template format must be strictly followed for the idea and abstract.</li>
+                    </ul>
+                </div>
+                <!-- Preliminary Round Rules -->
+                <div class="rule-category">
+                    <h4>Preliminary Round Rules</h4>
+                    <ul class="rule-list">
+                        <li>Hybrid participation (Online/Offline) available.</li>
+                        <li>₹500 fee applies *only* to shortlisted teams.</li>
+                    </ul>
+                </div>
+                <!-- Evaluation -->
+                <div class="rule-category">
+                    <h4>Evaluation Criteria</h4>
+                    <ul class="rule-list">
+                        <li>Innovation & Technical Feasibility.</li>
+                        <li>Social Impact & Alignment with SDGs.</li>
+                        <li>Final decision of the committee is binding.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div
+                style="margin-top: 4rem; padding: 2rem; background: #fff; border-radius: 12px; border-left: 5px solid var(--accent-blue);">
+                <p><strong>Disclaimer:</strong> This is a preliminary round conducted by ITM University as a Pilot
+                    Institute. Selection here marks excellence at the college/regional level but does not automatically
+                    guarantee qualification for the international finale in Indonesia.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9️⃣ AWARDS SECTION -->
+    <section id="awards" class="bg-light">
+        <div class="container">
+            <div class="awards-box">
+                <h2>Recognition & Awards</h2>
+                <div class="award-items">
+                    <div class="award-item">
+                        <i class="fas fa-certificate"></i>
+                        <h4>Certificate of Achievement</h4>
+                        <p>Awarded to all Preliminary Round winners.</p>
+                    </div>
+                    <div class="award-item">
+                        <i class="fas fa-gift"></i>
+                        <h4>Goodies & Swag</h4>
+                        <p>Branded goodies for track winners.</p>
+                    </div>
+                    <div class="award-item">
+                        <i class="fas fa-plane"></i>
+                        <h4>Grand Finale Pathway</h4>
+                        <p>Chance to qualify for Indonesia.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 🔟 CONTACT SECTION -->
+    <section id="contact">
+        <div class="container text-center">
+            <h2>Contact Us</h2>
+            <div class="contact-card">
+                <i class="fas fa-university"
+                    style="font-size: 2rem; color: var(--primary-blue); margin-bottom: 1rem;"></i>
+                <p><strong>Centre of Excellence (AI)</strong><br>ITM University, Gwalior (M.P.)</p>
+                <p><i class="fas fa-envelope"></i> coe.ai@itm.ac.in</p>
+                <p><i class="fas fa-phone"></i> +91-XXX-XXX-XXXX</p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <p><strong>IEEE YESIST12 2026 – Preliminary Round</strong></p>
+            <p>Hosted at ITM University, Gwalior | Organized by Centre of Excellence (AI), ITM University</p>
+            <p>Pilot Institute under IEEE YESIST12 2026 | Partner: Ideapad IIC</p>
+            <p style="margin-top: 1rem; opacity: 0.6; font-size: 0.8rem;">&copy; 2026 ITM University Gwalior. All rights
+                reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
